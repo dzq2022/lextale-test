@@ -57,6 +57,37 @@ button:hover {
     background-color: #0056b3;
 }
 
+#buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.responseButton {
+    width: 45%;
+}
+
+#yesButton {
+    background-color: #28a745;
+}
+
+#noButton {
+    background-color: #dc3545;
+}
+
+.languageButton {
+    width: 45%;
+    display: inline-block;
+}
+
+#englishButton {
+    background-color: #007bff;
+}
+
+#spanishButton {
+    background-color: #ffc107;
+    color: #000;
+}
+
 #resultArea p {
     margin: 10px 0;
 }
