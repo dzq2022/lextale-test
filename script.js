@@ -1,6 +1,6 @@
 // Initialize EmailJS with your user ID
 (function() {
-    emailjs.init("YOUR_USER_ID"); // Replace YOUR_USER_ID with your actual EmailJS user ID
+    emailjs.init("D-chfV9FgKTiw4tNw"); // Replace YOUR_USER_ID with your actual EmailJS user ID
 })();
 
 const englishWords = [
@@ -87,7 +87,7 @@ function finishTest() {
     const finalScore = `${score}/${currentWords.length}`;
     
     // Send email with the score
-    emailjs.send("default_service", "YOUR_TEMPLATE_ID", {
+    emailjs.send("default_service", "template_a0px7te", {
         to_email: userInfo.email,
         name: userInfo.name,
         language: userInfo.language,
